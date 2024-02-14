@@ -1,0 +1,9 @@
+{
+  "name": "examples",
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "*"
+  }
+}

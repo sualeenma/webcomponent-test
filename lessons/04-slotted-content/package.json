@@ -1,0 +1,11 @@
+{
+  "name": "04",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite start",
+    "finished": "vite finished"
+  },
+  "devDependencies": {
+    "vite": "*"
+  }
+}

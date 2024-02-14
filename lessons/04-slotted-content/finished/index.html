@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+      <!-- 
+        Exercise 1
+
+        Steps:
+        1. Create a 'div' and add the attribute slot="heading"
+        2. In the div add the content you want for the heading
+        3. Create a 'div' and add the attribute slot="content"
+        4. In the div add the content you want for the main card content
+        -->
+      <nma-card>
+        <div slot="heading">This is the heading</div>
+        <div slot="content">
+          Bacon ipsum dolor amet flank rump pancetta meatloaf hamburger t-bone
+          pig burgdoggen.
+        </div>
+      </nma-card>
+
+      <!-- Exercise 2 -->
+      <nma-color-group toggleColor="red">
+        <nma-color color="blue"></nma-color>
+        <nma-color color="green"></nma-color>
+      </nma-color-group>
+    </main>
+  </body>
+</html>

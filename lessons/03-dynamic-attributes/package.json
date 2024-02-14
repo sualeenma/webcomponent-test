@@ -1,0 +1,11 @@
+{
+  "name": "03",
+  "scripts": {
+    "start": "vite start",
+    "finished": "vite finished"
+  },
+  "devDependencies": {
+    "vite": "*"
+  }
+
+}

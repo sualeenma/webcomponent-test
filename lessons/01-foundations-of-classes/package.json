@@ -1,0 +1,11 @@
+{
+  "name": "01",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./start.js",
+    "finished": "nodemon ./finished.js"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}

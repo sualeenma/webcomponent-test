@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "examples": "pnpm -F examples run start",
+    "01:start": "pnpm -F 01 run start",
+    "01:finished": "pnpm -F 01 run finished",
+    "02:start": "pnpm -F 02 run start",
+    "02:finished": "pnpm -F 02 run finished",
+    "03:start": "pnpm -F 03 run start",
+    "03:finished": "pnpm -F 03 run finished",
+    "04:start": "pnpm -F 04 run start",
+    "04:finished": "pnpm -F 04 run finished",
+    "05:start": "pnpm -F 05 run start",
+    "05:finished": "pnpm -F 05 run finished"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "vite": "^5.0.12"
+  }
+}

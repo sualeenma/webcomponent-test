@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  width: clamp(300px, 90%, 1400px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Exercise 1
+ * You can style the shadow DOM by using CSS custom properties. 
+ *
+ * Read more: https://css-tricks.com/styling-a-web-component/#aa-custom-properties-go-through-the-shadow-dom 
+ *
+ * Steps:
+ * 1. Add a selector for the 'nma-two-column' element 
+ * 2. Update the two column ratio with the '--nma-two-column-ratio' property
+ * 3. Update the two column column gap with the '--nma-two-column-gap' property
+ * */
+
+/* Exercise 3
+ *
+ * You can access any element in a shadow tree that has
+ * a matching "part" attribute.
+ *
+ * Read more: https://developer.mozilla.org/en-US/docs/Web/CSS/::part
+ *
+ * Steps:
+ * 1. Add a selector for the 'nma-number-tiles' element
+ * 2. Use ::part to style the tile
+ * 3. Use ::part tot style the tile on hover
+ * */
