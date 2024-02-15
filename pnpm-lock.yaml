@@ -15,13 +15,41 @@ importers:
         specifier: ^5.0.12
         version: 5.0.12
 
+  examples:
+    devDependencies:
+      vite:
+        specifier: '*'
+        version: 5.0.12
+
   lessons/01-foundations-of-classes:
     devDependencies:
       nodemon:
         specifier: '*'
         version: 3.0.3
 
-  lessons/02-anatomy-of-a-web-component: {}
+  lessons/02-anatomy-of-a-web-component:
+    devDependencies:
+      vite:
+        specifier: '*'
+        version: 5.0.12
+
+  lessons/03-dynamic-attributes:
+    devDependencies:
+      vite:
+        specifier: '*'
+        version: 5.0.12
+
+  lessons/04-slotted-content:
+    devDependencies:
+      vite:
+        specifier: '*'
+        version: 5.0.12
+
+  lessons/05-styling-patterns:
+    devDependencies:
+      vite:
+        specifier: '*'
+        version: 5.0.12
 
 packages:
 
